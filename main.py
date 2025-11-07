@@ -232,7 +232,7 @@ def convert_file(text):
 
 def main():
     if len(sys.argv) < 3:
-        print("Uso: python converter_fix.py <input.h> <output.h>")
+        print("Uso: python main.py <input.h> <output.h>")
         sys.exit(1)
 
     input_file = sys.argv[1]
@@ -250,3 +250,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
